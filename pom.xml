@@ -73,7 +73,7 @@
 
         </plugins>
     </build>
-
+</project>
 <distributionManagement>
             <repository>
               <id>nexus</id>
@@ -82,4 +82,3 @@
             </repository>
             </snapshotRepository>
 </distributionManagement>
-</project>
