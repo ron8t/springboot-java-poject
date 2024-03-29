@@ -52,6 +52,14 @@
 
     </dependencies>
 
+     <distributionManagement>
+            <repository>
+              <id>nexus</id>
+              <name>spring_releases</name>
+              <url>http://44.202.87.252:8081/repository/spring_releases/</url>
+            </repository>    
+     </distributionManagement>
+              
     <build>
 
         <finalName>spring-boot-web</finalName>
