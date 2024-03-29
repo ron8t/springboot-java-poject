@@ -70,6 +70,10 @@
                     <target>${java.version}</target>
                 </configuration>
             </plugin>
+
+        </plugins>
+    </build>
+
 <distributionManagement>
             <repository>
               <id>nexus</id>
@@ -78,8 +82,4 @@
             </repository>
             </snapshotRepository>
 </distributionManagement>
-        </plugins>
-    </build>
-
-
 </project>
